@@ -1,14 +1,14 @@
-## Getting Started
+## About the Project
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+You to write something here. Describe the project and how you made it. What did you learn. Reflect on what you learned.
 
-## Folder Structure
+## Use Cases
 
-The workspace contains two folders by default, where:
+- As a user, I want to add books to a bookshelf.
+- As a user, I want to view a list of books on the bookshelf (in order left to right, alphabetically, read/unread, by category).
+- As a user, I want to mark a book as read
+- As a user, I want to move a book to a specific location on the bookshelf.
+- As a user, I want to swap the position of books on the bookshelf.
+- As a user, I want to remove a book from the bookshelf.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+![Use Case Diagram for Bookshelf App](diagrams/UseCaseDiagram-Bookshelf.jpg)
