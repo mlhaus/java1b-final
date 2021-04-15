@@ -12,3 +12,7 @@ You to write something here. Describe the project and how you made it. What did 
 - As a user, I want to remove a book from the bookshelf.
 
 ![Use Case Diagram for Bookshelf App](diagrams/UseCaseDiagram-Bookshelf.jpg)
+
+## Class Diagram
+
+![Class Diagram for Book](diagrams/ClassDiagram-Book.jpg)
