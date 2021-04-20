@@ -39,6 +39,10 @@ public class App {
         System.out.println("Book " + Book.bookCount + ": " + book1);
         Book book2 = new Book();
         System.out.println("Book " + Book.bookCount + ": " + book2);
+        Book book3 = new ChildrensBook("Java 2 For Kids", "Dr. Suess", "2022-01-01", false, 40, "Stan Lee");
+        System.out.println("Book " + Book.bookCount + ": " + book3);
+        Book book4 = new ChildrensBook();
+        System.out.println("Book " + Book.bookCount + ": " + book4);
     }
 
 }
