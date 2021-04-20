@@ -20,7 +20,7 @@ public class App {
             UIUtility.showSectionTitle(menuOptions[Integer.valueOf(choice) - 1]);
             switch (choice) {
                 case 1:
-                    testData();
+                    testData(scanner);
                     break;
                 case 2:
 
@@ -34,7 +34,7 @@ public class App {
        scanner.close();
     }
     
-    public static void testData() {
+    public static void testData(Scanner scanner) {
         Book book1 = new Book("Java 1", "Marc Hauschildt", "2021-02-06", false, 300);
         System.out.println("Book " + Book.bookCount + ": " + book1);
         Book book2 = new Book();
@@ -43,6 +43,7 @@ public class App {
         System.out.println("Book " + Book.bookCount + ": " + book3);
         Book book4 = new ChildrensBook();
         System.out.println("Book " + Book.bookCount + ": " + book4);
+        UIUtility.pressEnterToContinue(scanner);
     }
 
 }
