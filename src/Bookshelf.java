@@ -16,10 +16,6 @@ public class Bookshelf {
 
     }
 
-    public void viewBooks() {
-
-    }
-
     public void viewBooksLeftToRight() {
 
     }
@@ -49,6 +45,6 @@ public class Bookshelf {
     }
 
     public void removeBook(int bookIndex) {
-        
+
     }
 }
