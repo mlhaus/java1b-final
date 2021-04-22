@@ -34,9 +34,9 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book other) {
-        int result = this.title.compareTo(other.title);
+        int result = this.title.compareToIgnoreCase(other.title);
         if(result == 0) {
-            result = this.author.compareTo(other.author);
+            result = this.author.compareToIgnoreCase(other.author);
         }
         return result;
     }
