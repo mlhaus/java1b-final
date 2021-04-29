@@ -1,50 +1,51 @@
-package src;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Bookshelf {
-    private List<Book> books;
-    // private Book[] books;
+    private static List<Book> books = new ArrayList<>();
+    private static final int CAPACITY = 1;
 
-    public Bookshelf() {
-        books = new ArrayList<>(10);
-        // books = new Book[10];
+    public static boolean isFull() {
+        return books.size() == CAPACITY;
     }
 
-    public void addBook(Book book) {
-
+    public static List<Book> getBooks() {
+        return books;
     }
 
-    public void viewBooksLeftToRight() {
-
-    }
-
-    public void viewBooksAlphabetically() {
+    public static void addBook(Book book) {
 
     }
 
-    public void viewBooksRead() {
+    public static void viewBooksLeftToRight() {
         
     }
 
-    public void viewBooksByCategory() {
+    public static void viewBooksAlphabetically() {
 
     }
 
-    public void updateBookAsRead(int bookIndex) {
+    public static void viewBooksRead() {
+        
+    }
+
+    public static void viewBooksByCategory() {
 
     }
 
-    public void moveABook(int bookIndex, int newLocationIndex) {
+    public static void updateBookAsRead(int bookIndex) {
 
     }
 
-    public void swapBooks(int book1Index, int book2Index) {
+    public static void moveABook(int bookIndex, int newLocationIndex) {
 
     }
 
-    public void removeBook(int bookIndex) {
+    public static void swapBooks(int book1Index, int book2Index) {
+
+    }
+
+    public static void removeBook(int bookIndex) {
 
     }
 }
